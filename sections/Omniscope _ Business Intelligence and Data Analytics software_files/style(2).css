@@ -1,0 +1,387 @@
+/*
+Theme Name: visokio2024 Child
+Theme URI: 
+Description: A child theme of visokio2024 Theme
+Author: 
+Author URI: 
+Version: 1.0.0
+Template: visokio2024
+*/
+@import url("../visokio2024/style.css");
+/*
+h2
+{
+	text-shadow: 2px 2px 0 rgba(117, 158, 240, 0.5);
+}
+*/
+.container_inner {
+    margin: 0 auto;
+}
+
+@media only screen and (min-width:1230px)
+{
+	.container_inner {
+    width: 1230px;
+}
+	.boxed .section .section_inner, .grid_section .section_inner {
+    width: 1230px;
+}
+	.qode_pricing_tables.four_columns .q_price_table {
+    width: 24.2%;
+}
+}
+
+nav.main_menu > ul > li > a {
+    opacity: 0.8;
+}
+.main_menu li.active a
+{
+	background: rgba(166, 191, 242, 0.7);
+    opacity: 1;
+}
+.main_menu li:hover a span
+{
+	text-decoration:underline;
+}
+.scrolled .main_menu li.active a
+{
+	color:#fff;
+}
+.scrolled .main_menu li a
+{
+	opacity:0.5;
+}
+.scrolled .main_menu li.active a {
+    opacity: 1;
+}
+.parallax_section_holder  
+{
+	background-size:cover;
+}
+.omni .vc_column-inner
+{
+	width: 260px;
+    height: 288px;
+    margin: 5px auto;
+    overflow: hidden;
+}
+.q_icon_list p {
+    padding: 0 0 0 18px;
+	margin: 0;
+}
+.q_icon_list {
+    margin-bottom: 0px;
+}
+.gal h3 a
+{
+	font-size:22px;
+	font-weight:400;
+}
+.logos-wrapper .vc_single_image-wrapper img {
+    height: 65px;
+    width: 95%;
+    object-fit: contain;
+}
+.partners .vc_single_image-wrapper
+{
+	-webkit-filter: grayscale(100%) opacity(85%);
+    filter: grayscale(100%) opacity(85%);
+    filter: gray;
+}
+
+.footer_top h5 {
+    margin: 0 0 11px;
+}
+
+.footer_top a:hover {
+	color: #f7c06e !important;
+}
+
+.footer_top_holder .q_social_icon_holder i {
+    width: 44px;
+    height: 49px;
+    text-indent: -5000px;
+    display: inline-block;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    background-image: url('https://visokio.com/wp-content/uploads/2019/05/social-icons.png');
+}
+.footer_top_holder .q_social_icon_holder i.fa-facebook {
+    background-position: 0 0;
+}
+.footer_top_holder .q_social_icon_holder i.fa-twitter {
+    background-position: -44px 0;
+}
+.footer_top_holder .q_social_icon_holder i.fa-linkedin {
+    background-position: -88px 0;
+}
+.footer_top_holder .q_social_icon_holder i.fa-facebook:hover {
+    background-position: 0 -49px;
+}
+.footer_top_holder .q_social_icon_holder i.fa-twitter:hover {
+    background-position: -44px -49px;
+}
+.footer_top_holder .q_social_icon_holder i.fa-linkedin:hover {
+    background-position: -88px -49px;
+}
+.lbtn .qbutton.large {
+    white-space: inherit;
+    height: auto;
+    line-height: 25px;
+    padding: 10px 16px;
+}
+.news .q_icon_list {
+    margin-left: 2.14285714em;
+}
+.contact a
+{
+	background: transparent !important;
+}
+.scrolled .contact a
+{
+	background: transparent !important;
+    color: inherit !important;
+    opacity: 0.5 !important;
+}
+.clients .qode_client_image_holder img
+{
+	    max-width: 300px;
+    max-height: 150px;
+}
+.clients .section_inner
+{
+	mix-blend-mode: darken;
+}
+.recom 
+{
+	opacity:0.8;
+}
+.cl .q_elements_holder
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cl .q_elements_holder .q_elements_item {
+    flex-basis: 16%;
+    margin-bottom: 10px;
+}
+.partners .q_elements_holder
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.partners .q_elements_holder .q_elements_item {
+	    display: inherit;
+    vertical-align: middle;
+    height: auto;
+    flex-basis: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.partners 
+{
+	mix-blend-mode:darken;
+}
+.fix
+{
+	background-attachment:fixed;
+	background-position: top center !important;
+	background-size:cover;
+}
+
+
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+
+@media only screen and (max-width: 768px) {
+
+#content-desktop {display: none;}
+#content-mobile {display: block;}
+
+}
+
+#allBuilds 
+{
+	font-size:16px;
+}
+.wpb_single_image .vc_box_border.vc_box_border_grey, .wpb_single_image .vc_box_border_circle.vc_box_border_grey {
+    background-color: #ccc;
+}
+.wpb_single_image .vc_single_image-wrapper.vc_box_border, .wpb_single_image .vc_single_image-wrapper.vc_box_border_circle {
+    padding: 1px;
+}
+
+@media only screen and (max-width:480px) 
+{
+	div.grid_section .section_inner, nav.content_menu ul {
+    width: auto;
+	padding:0 0px;/*it was 15px*/
+	}
+	.parallax_section_inner_margin, .section_inner_margin {
+    margin-left: auto;
+    margin-right: auto;
+	}
+	.container_inner,
+  .boxed div.section .section_inner,
+  div.grid_section .section_inner,
+  .full_width .parallax_content,
+  .steps_holder_inner,
+  .carousel-inner .slider_content_outer,
+  nav.content_menu ul,
+  .container_inner nav.content_menu  {
+    width: 94%;
+}
+}
+
+@media only screen and (max-width:767px)
+{
+	.logos-wrapper .q_elements_holder .q_elements_item 
+	{
+		flex-basis: 33%;
+    justify-content: center;
+	}
+	.wpb_single_image
+	{
+		border:none !important
+	}
+}
+@media only screen and (max-width:768px)
+{
+	.ft .qode_icon_shortcode i
+	{
+		display:none;
+	}
+	.logos-wrapper .q_elements_holder
+	{
+		display: flex;
+    flex-wrap: wrap;
+	}
+	
+	.footer_top .footer_col3 {
+    text-align: left;
+}
+	.news .vc_column-inner
+	{
+		padding-left: 15px !important;
+    padding-right: 15px !important;
+	}
+	.clients .qode_client_image_holder img {
+    max-width: 180px;
+    max-height: 80px;
+}
+}
+@media only screen and (min-width:768px) and (max-width:980px)
+{
+	.omni .vc_column-inner {
+    width: 190px;
+    height: 211px;
+    margin: 5px auto;
+    background-size: cover;
+}
+	.omni .wpb_text_column
+	{
+		margin-top: 60px !important;
+    margin-bottom: 10px !important;
+	}
+	.omni h3
+	{
+		font-size: 24px;
+	}
+	.omni .custom_font_holder
+	{
+	font-size: 16px !important;
+    line-height: 26px !important;
+	}
+	.gal .q_elements_holder {
+    display: flex;
+    flex-wrap: wrap;
+}
+	.gal .q_elements_item 
+	{
+		    width: 50% !important;  
+	}
+	.logos-wrapper .q_elements_holder .q_elements_item 
+	{
+		flex-basis: 16%;
+    justify-content: center;
+	}
+	.logos-wrapper .q_elements_holder
+	{
+		display: flex;
+    flex-wrap: wrap;
+	}
+	.news .vc_col-sm-4 {
+    width: 45%;
+}
+	.q_icon_list i {
+    line-height: 40px !important;
+}
+}
+@media only screen and (max-width: 1000px){
+.mobile_menu_button {
+height: 50px !important;
+}
+.side_menu_button {
+height: 50px !important;
+}
+.logo_wrapper {
+height: 50px !important;
+}
+	.logo_wrapper {
+    left: 0%;
+}
+.q_logo a {
+    left: 0%;
+}
+	.mobile_menu_button {
+    float: right;
+	margin: 0;
+}
+	.mobile_menu_button span.icon_menu
+	{
+		border: 1px solid;
+    border-radius: 4px;
+	}
+	header {
+        position: fixed !important;
+        left: 0px !important;
+        top: 0px !important;
+    }
+    .content {
+        top: 40px !important; /* this should be equal to mobile header height */
+    }
+	.header_bottom {
+    /*background-color: rgba(48, 110, 232, 0.9) !important;*/
+}
+	.fixed_top_header .bottom_header, .fixed_top_header nav.mobile_menu, nav.mobile_menu {
+    background: transparent;
+}
+}
+@media only screen and (min-width:1001px) and (max-width:1024px)
+{
+	.q_logo a
+	{
+		height: 40px !important;
+	}
+}
+@media only screen and (min-width:800px) and (max-width:1230px)
+{
+	.clients .qode_client_image_holder img {
+    max-width: 230px;
+    max-height: 100px;
+}
+}
+
+/*Hide images from subscription product*/
+.woocommerce div#product-19163 .woocommerce-product-gallery {
+ display:none;
+}
+
+.woocommerce div#product-19163 .summary {
+ float: left; 
+	width: 100%;
+}
+
+ol {
+  list-style-position: inside;
+}
